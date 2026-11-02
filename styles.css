@@ -2,3 +2,20 @@
 @media print{body{background:#fff}.app,.modal-head,.modal-foot{display:none!important}.modal-backdrop{position:static;background:none;padding:0;display:block}.modal{width:100%!important;max-height:none;box-shadow:none;overflow:visible}.modal-body{padding:0}.invoice-paper{padding:20px}#toast{display:none}}
 
 .stat:nth-child(-n+2) .stat-value{font-size:20px;line-height:1.3;overflow-wrap:anywhere}
+/* Dark mauve theme based on the supplied reference */
+:root{color-scheme:dark;color:#eee8ee;background:#110e13}
+body{background:radial-gradient(ellipse at 48% 8%,#5a4655 0,#302630 38%,#151116 78%);color:#eee8ee}
+.sidebar{background:#120e14;border-right:1px solid #3e333f;box-shadow:6px 0 24px #09070b33}
+.brand{color:#f7eef6}.brand-icon{background:linear-gradient(135deg,#c994bd,#76546f);color:#fff;box-shadow:0 5px 18px #b883a459}.brand-dot{color:#d5a8cb}
+.workspace-label{color:#7e707e}nav button{color:#a79aa8}nav button:hover{background:#29202a;color:#f3e5f0}nav button.active{background:linear-gradient(90deg,#65445e,#2b202d);color:#f5d9ee;box-shadow:inset 2px 0 #d89bc9}
+.help-card{background:linear-gradient(150deg,#372b39,#1b151e);border:1px solid #4a384a}.help-icon{color:#dba6cc}.help-card strong{color:#f3e9f0}.help-card p{color:#a69aa5}.profile{border-color:#332b35}.profile small,.profile>span{color:#8d808e}.avatar{background:#50394f;color:#f0d1e9}
+.breadcrumb{color:#ab9cab}.breadcrumb span:last-child{color:#dbc2d4}header p{color:#b7a8b4}.today{color:#b9a8b7}
+.primary{background:linear-gradient(135deg,#d7a5c8,#ad789f);color:#211620;box-shadow:0 5px 20px #b47da04d}.primary:hover{background:linear-gradient(135deg,#e8badb,#c68eb5)}.secondary{background:#302630;border:1px solid #594657;color:#ead7e6}.secondary:hover{background:#3d3040}
+.stat,.panel{background:linear-gradient(145deg,#211a23,#18131b);border-color:#4a3a49;box-shadow:0 8px 26px #0b080d30}.stat-top{color:#b9a8b7}.stat-value{color:#f5edf3}.stat-note{color:#9a8b9a}.stat-icon.blue{background:#463144;color:#dfb3d7}.stat-icon.green{background:#253a32;color:#8dcbb0}.stat-icon.amber{background:#4a3a30;color:#e5b78e}.stat-icon.violet{background:#3b304e;color:#c3a5e0}
+.section-head h2{color:#f4eaf2}.link,.row-action,.add-line{color:#e3afd7}.link:hover,.row-action:hover,.add-line:hover{color:#f8d5ef}
+th{background:#211b23;color:#a99aa8;border-bottom-color:#453744}td{border-bottom-color:#3b303b;color:#b9abb7}td strong,.amount{color:#eee3eb}.badge.paid{background:#263a32;color:#9bd5b4}.badge.unpaid{background:#49392c;color:#e7bc86}.badge.overdue{background:#4b2d39;color:#eda7b8}
+.empty{color:#b5a5b2}.empty .empty-icon{color:#c995bd}.empty h3{color:#eadce7}
+.search,.filter,.field input,.field select,.field textarea,.item-row input,.item-row select{background:#211a23;border-color:#584757;color:#f0e4ed}.search::placeholder,.field input::placeholder,.field textarea::placeholder,.item-row input::placeholder{color:#8d7d8b}.search:focus,input:focus,select:focus,textarea:focus{border-color:#cf9bc1;outline:2px solid #7e56736b}.field span,.items-head{color:#c6b4c2}
+.modal-backdrop{background:#08060acc}.modal{background:#1c161e;border:1px solid #60495d;box-shadow:0 28px 85px #050306b8}.modal-head,.modal-foot{border-color:#493947}.modal-head h2{color:#f1e5ee}.close{color:#bea9b9}.total-line{color:#bdadba}.total-line.grand{color:#f3eaf0;border-color:#564453}.totals{border-color:#564453}.paper-note{border-color:#584857;color:#b7a5b3}
+.invoice-paper{background:#211b23;color:#ebdfe8}.paper-brand{color:#e4b4d8}.paper-top{border-color:#5d4559}.paper-title h2{color:#f7ebf4}.paper-label{color:#bd9eb6}.paper-cols p{color:#ded0db}
+@media print{:root{color-scheme:light}body{background:#fff;color:#273342}.modal{border:0;background:#fff}.invoice-paper{background:#fff;color:#273342}.paper-brand{color:#7f4d71}.paper-title h2{color:#273342}.paper-cols p{color:#273342}.paper-top{border-color:#e9dfe8}.paper-label{color:#897a86}th{background:#f7f3f6;color:#716571;border-color:#e8e0e7}td{color:#48515b;border-color:#e9e4e8}td strong,.amount{color:#273342}.total-line{color:#687380}.total-line.grand{color:#273342;border-color:#e8e0e7}.paper-note{color:#687380;border-color:#e8e0e7}}
